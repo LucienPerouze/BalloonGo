@@ -3,21 +3,7 @@ import $ from 'jquery';
 
 import './style.css';
 import background from './map.png';
-
-var getBackgroundImageSize = function(el) {
-    var imageUrl = $(el).css('background-image').match(/^url\(["']?(.+?)["']?\)$/);
-    var dfd = new $.Deferred();
-
-    if (imageUrl) {
-
-    } else {
-        dfd.reject();
-    }
-
-    return dfd.then(function() {
-        return { width: this.width, height: this.height };
-    });
-};
+import Balloon from '../balloon';
 
 class Map extends Component {
 
@@ -96,6 +82,7 @@ class Map extends Component {
         return (
             <div className={'map'} style={{backgroundImage: `url(${background})`}}>
                 <div className={'hitBox'} style={{width:this.state.width, height:this.state.height,left:this.state.x,top:this.state.y}}>
+                  <Balloon/>
                 </div>
             </div>
         );
