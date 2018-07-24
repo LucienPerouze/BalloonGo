@@ -1,0 +1,14 @@
+.header {
+}
+
+.logo {
+    font-family: impact;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo>span {
+    color: red;
+}
