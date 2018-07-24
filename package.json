@@ -1,22 +1,16 @@
 {
   "name": "balloongo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LucienPerouze/BalloonGo.git"
-  },
-  "author": "Patrick Arutunian",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LucienPerouze/BalloonGo/issues"
-  },
-  "homepage": "https://github.com/LucienPerouze/BalloonGo#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "lodash": "^4.17.10"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
