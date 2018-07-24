@@ -5,11 +5,12 @@
 .logo {
     font-family: impact;
     font-weight: normal;
-    color: white;
+    color: #e4e4e4;
     margin: 0;
     padding: 0;
+    text-shadow: -1px 0 #2c7aa6, 0 1px #2c7aa6, 1px 0 #2c7aa6, 0 -1px #2c7aa6;
 }
 
 .logo>span {
-    color: red;
+    color: #39a7e0;
 }
