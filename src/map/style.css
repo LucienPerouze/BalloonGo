@@ -1,5 +1,8 @@
 .map {
-    width: 900px;
-    height: 600px;
-    background-color: white;
+    width: 650px;
+    height: 330px;
+    background-color: #7bdfff;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }

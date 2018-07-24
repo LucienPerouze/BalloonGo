@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 
 import './style.css';
+import background from './map.png';
 
 class Map extends Component {
 
@@ -22,7 +23,7 @@ class Map extends Component {
 
     render() {
         return (
-            <div className={'map'}>
+            <div className={'map'} style={{backgroundImage: `url(${background})`}}>
             </div>
         );
     }
